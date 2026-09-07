@@ -1,0 +1,14 @@
+# Generated reports
+health_report.txt
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Backup files
+*.bak
+
+# Linux editor files
+*~
