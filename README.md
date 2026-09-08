@@ -58,6 +58,20 @@ git clone https://github.com/sri-soundarraj/Linux-Server-Health-Check.git
 - Git & GitHub
 - Automation
 
+## 📸 Project Screenshots
+
+### Full Health Check
+
+![Linux Server Health Check](screenshots/health-check-output1.png)
+
+### System Monitoring
+
+![System Monitoring](screenshots/health-check-output2.png)
+
+### Server Status
+
+![Server Status](screenshots/health-check-output3.png)
+
 ## 📁 Project Structure
 
 ```text
