@@ -74,14 +74,15 @@ git clone https://github.com/sri-soundarraj/Linux-Server-Health-Check.git
 
 ## 📁 Project Structure
 
-```text
 Linux-Server-Health-Check/
 ├── server_check.sh
 ├── README.md
 ├── .gitignore
 ├── LICENSE
 ├── screenshots/
-│   └── health-check-output.png
+│   ├── health-check-output1.png
+│   ├── health-check-output2.png
+│   └── health-check-output3.png
 └── .github/
     └── workflows/
         └── shellcheck.yml
