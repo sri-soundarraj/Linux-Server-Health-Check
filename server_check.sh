@@ -152,7 +152,7 @@ do
     echo "10. Exit"
     echo "===================================="
 
-    read -p "Enter your choice: " choice
+    read -r -p "Enter your choice: " choice
 
     case $choice in
         1) check_hostname ;;
