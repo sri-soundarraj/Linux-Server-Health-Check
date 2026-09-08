@@ -1,41 +1,79 @@
-# Linux Server Health Check Tool
+# Linux Server Health Check
 
-A Bash-based Linux System Administration project designed to monitor basic server health and perform common system checks through an interactive menu.
+A Bash-based Linux Server Health Check tool designed to monitor important system health parameters and provide quick troubleshooting information.
 
-## Features
+## 🚀 Features
 
-- Hostname check
-- IP address check
+- Hostname information
+- IP address detection
 - Operating system information
 - Disk usage monitoring
 - Memory usage monitoring
 - CPU load monitoring
-- System uptime check
+- System uptime
 - SSH service status
 - Network connectivity check
-- System error log monitoring
-- Full health check option
-- Interactive menu-driven interface
+- Recent system error detection
+- Menu-driven interface
+- Health status reporting
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- Bash Shell Scripting
 - Linux
-- systemctl
-- journalctl
-- ping
-- awk
-- sed
-- grep
-- df
-- free
-- uptime
+- Bash Shell Scripting
+- Systemd
+- Linux CLI
+- Git & GitHub
 
-## Project Structure
+## 📋 Health Checks
+
+| Check | Description |
+|---|---|
+| Hostname | Displays system hostname |
+| IP Address | Displays active IP address |
+| OS | Displays Linux distribution information |
+| Disk | Checks filesystem usage |
+| Memory | Checks RAM utilization |
+| CPU | Displays CPU load |
+| Uptime | Shows system uptime |
+| SSH | Checks SSH service |
+| Network | Tests internet connectivity |
+| Logs | Checks recent system errors |
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sri-soundarraj/Linux-Server-Health-Check.git
+
+## 🎯 Skills Demonstrated
+
+- Linux System Administration
+- Bash Scripting
+- System Monitoring
+- Service Management
+- Troubleshooting
+- Log Analysis
+- Git & GitHub
+- Automation
+
+## 📁 Project Structure
 
 ```text
 Linux-Server-Health-Check/
 ├── server_check.sh
 ├── README.md
+├── .gitignore
 ├── LICENSE
-└── screenshots/
+├── screenshots/
+│   └── health-check-output.png
+└── .github/
+    └── workflows/
+        └── shellcheck.yml
+
+👨‍💻 Author
+
+Sri Soundarraj
+
+Aspiring System Administrator | Linux Administrator | Cloud Engineer
